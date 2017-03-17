@@ -1,3 +1,5 @@
+//Not bare minimum yet. Will remove more.
+
 #include "ThingSpeak.h"
 #include <ESP8266WiFi.h>
    

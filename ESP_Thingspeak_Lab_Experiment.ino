@@ -1,8 +1,8 @@
 #include "ThingSpeak.h"
 #include <ESP8266WiFi.h>
    
-char ssid[] = "kwartzlab";    //  your network SSID (name) 
-char pass[] = "Kw@rtzLab>>wifi";   // your network password
+char ssid[] = "blahblahblah";    //  your network SSID (name) 
+char pass[] = "blahblahblah";   // your network password
 
 int status = WL_IDLE_STATUS;
 WiFiClient  client;
@@ -11,8 +11,8 @@ WiFiClient  client;
 #define VOLTAGE_MAX 1.0
 #define VOLTAGE_MAXCOUNTS 1023.0
 
-unsigned long myChannelNumber = 234465;
-const char * myWriteAPIKey = "5GH0J6AVZ0LG7LZ6";
+unsigned long myChannelNumber = 123456;
+const char * myWriteAPIKey = "8L4H8L4H8L4H";
 
 void setup() 
 {
